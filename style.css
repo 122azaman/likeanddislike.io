@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background-color: rgb(174, 209, 183);
+}
+.btn {
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
