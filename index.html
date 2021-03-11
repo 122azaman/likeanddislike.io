@@ -16,15 +16,22 @@
       <span id="displayCount" class="glyphicon glyphicon-thumbs-up"> 0</span>
     </button>
     <button type="button" id="clickedButton" class="btn btn-default btn-sm">
-      <span id="displayCount" class="glyphicon glyphicon-thumbs-down"> 0</span>
+      <span id="showCount" class="glyphicon glyphicon-thumbs-down"> 0</span>
     </button>
     <script>
       var count = 0;
       var clickButton = document.getElementById("clickButton");
       var displayCount = document.getElementById("displayCount");
       clickButton.onclick = function () {
-        count++;
+        count += 1;
         displayCount.innerHTML = count;
+      };
+      var counting = 0;
+      var clickedButton = document.getElementById("clickedButton");
+      var showCount = document.getElementById("showCount");
+      clickedButton.onclick = function () {
+        counting += 1;
+        showCount.innerHTML = counting;
       };
     </script>
   </body>
